@@ -1,0 +1,71 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+nav{
+    background-color: #eef;
+}
+
+nav .brand-logo, nav ul a{
+    color: #000;
+    font-weight: 600;
+}
+
+.banner{
+    width: 100%;
+    position: relative;
+    display: flex;
+}
+
+.banner img{
+    width: 100%; 
+    height: 600px;   
+}
+
+.banner .bannerText{
+    background-color: rgba(66,66,66,0.6);
+    color: #fff;
+    height: 50%;
+    width: 50%;
+    position: absolute;
+    left: 25%;
+    top: 25%;
+    z-index: 100;
+}
+
+main {
+    flex: 1 0 auto;
+    min-height: 70vh;
+}
+
+.modal{
+    width: 40%;
+}
+
+.hoverable{
+    cursor: pointer;
+}
+
+.tabs .indicator {
+    height: 4px;
+    background-color: #000;
+}
+
+.sub-heading{
+    font-size: 1.5rem;
+}
+
+.page-footer{
+    background-color: #eef;
+}
+.page-footer .footer-copyright{
+    color: #000;
+}
+
+@media only screen and (max-width: 556px){
+    .tabs.tabs-fixed-width{
+        display: inline-table;
+    }
+}

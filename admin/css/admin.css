@@ -1,0 +1,59 @@
+.adminMenu{
+    min-height: 70vh;
+    width: 300px;
+}
+.adminMenu li {
+    float: none;
+    line-height: 48px;
+}
+.adminMenu li a{
+    color: #333;
+    width: 100%;
+    padding: 5px 15px;
+}
+.userView {
+    position: relative;
+    padding: 5px 32px 0;
+    margin-bottom: 8px;
+   
+}
+.userView .background {
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+}
+.adminMenu .userView .circle {
+    height: 64px;
+    width: 64px;
+}
+
+.adminMenu .userView .circle, .adminMenu .userView .name, .adminMenu .userView .email {
+    display: block;
+}
+.adminMenu .userView>a {
+    height: auto;
+    padding: 0;
+}
+.adminMenu .userView .name {
+    margin-top: 16px;
+    font-weight: 500;
+}
+.adminMenu .userView .name, .adminMenu .userView .email {
+    font-size: 14px;
+    line-height: 24px;
+}
+.adminMenu .userView .email {
+    padding-bottom: 16px;
+    font-weight: 400;
+}
+.adminMenu .collapsible{
+    margin: 0;
+}
+.adminMenu .collapsible-body{
+    padding: 0;
+    padding-left: 2rem;
+}
